@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>About McWall-E</title>
+        
+        <!-- Importing Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Importing other links -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Importing link to CSS file -->
+        <link href="../static/style_models.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">Hearty McWall-E</label>
+            <ul>
+                <li><a class="active" href="/index">Home</a></li>
+                <li><a class="active" href="/deep">Deep Learning</a></li>
+                <li><a class="active" href="/svm">SVM</a></li>
+                <li><a class="active" href="/logreg">Logistic Regression</a></li>
+                <li><a class="active" href="/about">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="container" style="background: #D6EAF8;">
+            <div class="col-12">
+                <h1>About Us</h1>
+                <h4>The information below is derived from our project proposal</h4>
+
+                <hr>
+                <hr>
+
+                <h3>Project Title</h3>
+                <p>We can all agree that health and longevity are thoughts of the young and wise. With technology constantly advancing, 
+                    we attempt to combine the two using machine learning algorithms and predictive models that can (hopefully) make it 
+                    easier for consumers to identify health related issues. With today's more advanced technologies (Apple Watch, FitBit, etc.) 
+                    it became easier for an everyday consumer to measure their health. In this project, we focus primarily on heart disease. 
+                    However, we have future aspirations to include other health related issues like breast cancer and skin cancer. Other ideas stem 
+                    from mental health issues that include datasets with features such as suicide rates and happiness levels.
+                </p>
+
+                <hr>
+                <hr>
+
+                <h3>Project Description</h3>
+                <p>Using the below cited datasets, we declare features that we feel are paramount to the predictive model. For example, age, sex, chest 
+                    pain, resting blood pressure, cholesterol, fasted blood sugar, etc. Users of the application will be able to input answers to a general 
+                    set of questions regarding the aforementioned features (in a survey format). These inputs will then run through the model, and the output 
+                    will display a percentage prediction, similar to “You have a 3.18% chance of having Heart Disease! Well Done!”. Another added trait of this 
+                    application is suggestions. For example, “You have a 78.42% chance of having Heart Disease! We suggest ample rest, less grease, 
+                    non-stressful activities, and light exercise.” 
+                </p>
+
+                <img src="../static/images/xcel.png" width="75%">
+
+                <hr>
+                <hr>
+
+                <h3>Project Guidelines</h3>
+                <p>Step 1: Clean the data, and ensure that the model is only using data that is essential to the results. This is solely for preparing the data that we think we can use for the models in Step 2.
+                </p>
+                <br>
+                <p>Step 2: Define the features for the Predictive model. These features will need to take into account mental health issues as well because some heart-related events may include mental health measurements (i.e. depression).
+                </p>
+                <br>
+                <p>Step 3: Test models. We expect to use Random Forest and Neural Networks (Deep Learning) to make predictions on identifying health issues.
+                </p>
+                <br>
+                <p>Step 4: Analyze data and determine the best model. Although multiple models will be created, we expect to use the model(s) that best fits the features chosen.
+                </p>
+                <br>
+                <p>Step 5a: Two people will create the website. The home page will contain a small summary and a welcome message to explain to the users what the application should be used for. Underneath this message will be a total of 10 questions. These questions will have a drop down menu with values ranging from “yes” and “no” variables, and numerical values. Depending on the values inputted by the user, a prediction will be displayed once prompted. This website will display a pleasing and easily understood UI.
+                </p>
+                <br>
+                <p>Step 5b: The third member will create a database that is interactive with the website. It is this individual’s responsibility to make sure the database is callable from the official website.
+                </p>
+                <br>
+                <p>Step 6: Finalization. Fix any loose ends and (possibly) create a presentation.
+                </p>
+                <br>
+
+                <hr>
+                <hr>
+
+                <h3>References</h3>
+                <br>
+                <p>https://www.kaggle.com/ronitf/heart-disease-uci</p>
+                <br>
+                <p>https://data.world/xprizeai-health/heart-disease</p>
+                <br>
+                <p>https://www.kaggle.com/sulianova/cardiovascular-disease-dataset</p>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>

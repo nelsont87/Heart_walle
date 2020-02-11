@@ -1,0 +1,185 @@
+<!-- Main Setup -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Hearty McWall-E</title>
+        
+        <!-- Importing Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Importing other links -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <!-- Importing link to CSS file -->
+        <link href="../static/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    </head>
+
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+            <label class="logo">Hearty McWall-E</label>
+            <ul>
+                <li><a class="active" href="/index">Home</a></li>
+                <li><a class="active" href="/deep">Deep Learning</a></li>
+                <li><a class="active" href="/svm">SVM</a></li>
+                <li><a class="active" href="/logreg">Logistic Regression</a></li>
+                <li><a class="active" href="/about">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid" style="background: #D6EAF8;">
+            <div class="container">
+                <h2>Welcome, Human! My name is Hearty McWall-E.</img></h2>
+                
+                <br>
+            </div>
+        </div>
+
+        <img class="sticky" src="../static/images/robot1.jpg" alt="Avatar">
+
+        <hr>
+
+        <!-- Start the Cards -->
+
+        <div class ="container padding">
+            <div class="row padding">
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/brain.jpg" width="200" height="350">
+                        <div class="card-body">
+                            <h4 class="card-title">Model 1</h4>
+                            <p class="card-text">Deep Learning Neural Network</p>
+                            <a href="/deep" class="btn btn-outline-secondary">Try Me!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/svm.jpg" width="200" height="350">
+                        <div class="card-body">
+                            <h4 class="card-title">Model 2</h4>
+                            <p class="card-text">Support Vector Machine + GridSearch</p>
+                            <a href="/svm" class="btn btn-outline-secondary">Try Me!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/logreg.jpg" width="200" height="350">
+                        <div class="card-body">
+                            <h4 class="card-title">Model 3</h4>
+                            <p class="card-text">Logistic Regression + GridSearch</p>
+                            <a href="/logreg" class="btn btn-outline-secondary">Try Me!</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Explanation -->
+
+        <div class="container" style="background: #aaa;">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <h1>Curious about who I am?</h1>
+                    <br>
+                    <p>I was created by genius students of the UC Berkeley Data Analytics Bootcamp. My sole purpose
+                    is to help you find out if you are at any health risks. My creators tested multiple machine learning 
+                    algorithms in order to find the most accurate models to help you. Choose one of my three
+                    programmed models, input your answers, and find out if you're ready for that trip to the buffet
+                    <i class="far fa-grimace"></i>... or a trip to the doctors <i class="far fa-grin-beam-sweat"></i>
+                    </p>
+                    <a href="https://github.com/gianmillare/Hearty-McWall-E"><button type="button" class="btn btn-primary btn-lg">See My Organs!</button></a>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="../static/images/robot.jpg">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Portfolio  -->
+
+        <div class="container" style="background: #D6EAF8;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Meet my Creators!</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="cards">
+            <div class="row padding">
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/gm.png" width="200" height="375">
+                        <div class="card-body">
+                            <h4 class="card-title">Gian Millare</h4>
+                            <a href="https://github.com/gianmillare" class="btn btn-outline-secondary">Github</a>
+                            <a href="https://www.linkedin.com/in/gianmillare/" class="btn btn-outline-secondary">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/nt.png" width="200" height="375">
+                        <div class="card-body">
+                            <h4 class="card-title">Nelson Tsai</h4>
+                            <a href="https://github.com/nelsont87" class="btn btn-outline-secondary">Github</a>
+                            <a href="https://www.linkedin.com/in/nelsontsai87/" class="btn btn-outline-secondary">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="../static/images/eh.png" width="200" height="375">
+                        <div class="card-body">
+                            <h4 class="card-title">Eric Huey</h4>
+                            <a href="https://github.com/ehuey001" class="btn btn-outline-secondary">Github</a>
+                            <a href="https://www.linkedin.com/in/ehuey001/" class="btn btn-outline-secondary">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+        <br>
+
+        <div class="jumbotron jumbotron-fluid" style="background: #D6EAF8;">
+            <div class="container">
+                <h3>Want to learn more about this project? Click the link below.</h3>
+                <a href="/about" class="btn btn-primary btn-lg">About Us</a>
+                
+                <br>
+            </div>
+        </div>
+            
+    </body>
+
+</html>
